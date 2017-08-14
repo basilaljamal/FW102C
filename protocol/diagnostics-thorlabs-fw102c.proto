@@ -1,0 +1,17 @@
+OutTerminator = CR;
+InTerminator = CR "> ";
+ReplyTimeout = 5000;
+ReadTimeout = 5000;
+
+SetPosition
+{
+	out "pos=%d";
+	in "pos=%d";
+}
+
+GetPosition
+{
+    out "pos?";
+    in "pos?" CR "%d";
+}
+

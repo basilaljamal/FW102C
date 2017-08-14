@@ -1,0 +1,3 @@
+pattern {SYSTEM			DEVICE}
+        {D14-OP-FW		thorlabs-fw102c}
+

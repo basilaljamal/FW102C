@@ -1,0 +1,39 @@
+record(ao, "D14-OP-FW:SetPosition")
+{
+    field(DESC, "Set Position")
+    field(PINI, "YES")
+    field(VAL,   1)
+    field(DTYP, "stream")
+    field(PREC, "0")
+    field(OUT, "@diagnostics-thorlabs-fw102c.proto SetPosition thorlabs-fw102c")
+}
+
+record(ai, "D14-OP-FW:GetPosition")
+{   
+    field(SCAN, "1 second")
+    field(PINI, "YES")
+    field(DESC, "Get Position")
+    field(DTYP, "stream")
+    field(INP, "@diagnostics-thorlabs-fw102c.proto GetPosition thorlabs-fw102c")
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
